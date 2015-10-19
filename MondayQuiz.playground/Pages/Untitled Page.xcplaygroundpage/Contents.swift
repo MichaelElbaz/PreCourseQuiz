@@ -10,6 +10,24 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var isCoding: Bool = true
+func bug (isCoding: Bool) -> Bool {
+    
+    if  isCoding == true {
+        print("dont bug me")
+        return true
+        
+    } else {
+        "whats up"
+        return false
+        
+    }
+    
+}
+
+bug(isCoding)
+
+
 
 //: [Previous](@previous)
 //: [Next](@next)

@@ -11,7 +11,15 @@ Don't forget to call the function at the bottom
 */
 
 import Foundation
+var ages: Dictionary = ["john" : "name", "21" : "age", "mike" : "name", "25":"age","dave":"name", "18": "age","seth":"name","20":"age","fred":"name","22":"age"  ]
 
+// for loop - dictionary
+
+for (names, age) in ages{
+    
+    print("the \(names) and \(age) are ")
+    
+}
 
 
 //: [Previous](@previous)

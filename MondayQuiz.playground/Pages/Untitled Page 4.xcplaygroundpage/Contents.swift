@@ -8,6 +8,30 @@ Write a function that prints the numbers from 1 to 100. But for multiples of thr
 
 import Foundation
 
+for var i = 0; i <= 100; i++ {
+    
+    if (i % 3 == 0) &&  (i % 5 == 0) {
+        
+        print("DevMountain")
+        
+    } else if (i % 3 == 0) {
+        
+        print("Dev")
+        
+    } else if (i % 5 == 0) {
+        
+        print("Mountain")
+        
+    } else {
+        
+        print(i)
+        
+    }
+    
+}
+
+
+
 
 
 //: [Previous](@previous)
